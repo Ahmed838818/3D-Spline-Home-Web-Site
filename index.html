@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VARON</title>
+  <link rel="stylesheet" href="style s.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+</head>
+<body>
+      <header>
+    <img src="logo.png" alt="logo" data-aos="fade-down" data-aos-duration="1500">
+
+<nav class=>
+<ul class="nav-links">
+
+
+<li><a href="#home" id="home" data-aos="fade-down" data-aos-duration="1500">Home</a></li>
+<li><a href="#services" data-aos="fade-down" data-aos-duration="2000">Services</a></li>
+<li><a href="#products" data-aos="fade-down" data-aos-duration="2500">Products</a></li>
+<li ><a href="#about" data-aos="fade-down" data-aos-duration="3000">About</a></li>
+</ul>
+
+
+<i id="fasfa" class="fas fa-bars"  data-aos="fade-down" data-aos-duration="2000" ></i>
+</nav>
+</header>
+<br>
+<main>
+<div class="content">
+<div class="tag-box" 
+ data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="300"
+     data-aos-offset="0"
+     data-aos-duration="1500">
+<div class="tag"> INRTODUCING &wedbar; </div>
+</div>
+<h1  data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="300"
+     data-aos-offset="0"
+     data-aos-duration="2000">Welcome To <span>VARON</span></h1>
+<p class="description"
+ data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="300"
+     data-aos-offset="0"
+     data-aos-duration="2500"
+>
+the best way to reach humans instead of spam folders,
+deliver transactional emails, and send high-volume marketing at scale.
+</p>
+<div class="button">
+ <a href="#get-started" class="btn-get-started"  data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="300"
+     data-aos-offset="0"
+     data-aos-duration="2500"  >Documentation <span><i class="fas fa-arrow-right"></i></span></a>
+ <a href="#learn-more" class="btn-signing-in"  data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="300"
+     data-aos-offset="0"
+     data-aos-duration="3000"  >Get Started  <span><i class="fas fa-arrow-right"></i></span></a>
+</div>
+</div>
+<spline-viewer url="https://prod.spline.design/kD41ZDaFMTpTmTeg/scene.splinecode" class="d-robot"  data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="300"
+     data-aos-offset="0"
+     data-aos-duration="3000" ></spline-viewer>
+</main>
+
+<script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.56/build/spline-viewer.js"></script>
+
+
+  <script>
+
+    const menu = document.querySelector('#fasfa');
+    const navLinks = document.querySelector('.nav-links');
+
+    menu.addEventListener('click', () => {
+      navLinks.classList.toggle('active-menu');
+    });
+
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    once: true,   // يخلي الأنيميشن يشتغل مرة واحدة
+    startEvent: 'DOMContentLoaded', // يبدأ مع تحميل الصفحة
+  });
+</script>
+</body>
+</html>
